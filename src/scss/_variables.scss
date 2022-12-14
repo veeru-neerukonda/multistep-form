@@ -1,0 +1,33 @@
+//colors
+$color-white-100: hsl(0, 0%, 100%);
+$color-white-200: hsl(231, 100%, 99%);
+$color-white-300: hsl(217, 100%, 97%);
+$color-white-400: hsl(229, 24%, 87%);
+$color-white-500: hsl(231, 11%, 63%);
+
+$color-red-500: hsl(354, 84%, 57%);
+
+$color-blue-100: hsl(213, 96%, 18%);
+$color-blue-200: hsl(243, 100%, 62%);
+$color-blue-300: hsl(228, 100%, 84%);
+$color-blue-400: hsl(206, 94%, 87%);
+
+//spacing
+:root{
+    --spacing-01: 0.2rem;
+    --spacing-02: 0.4rem;
+    --spacing-03: 0.8rem;
+    --spacing-04: 1.2rem;
+    --spacing-05: 1.6rem;
+    --spacing-06: 2.4rem;
+    --spacing-07: 3.2rem;
+    --spacing-08: 4.0rem;
+    --spacing-09: 4.8rem;
+    --spacing-10: 6.4rem;
+    --spacing-11: 8.0rem;
+    --spacing-12: 9.6rem;
+    --spacing-13: 16rem;
+}
+
+// breakpoints
+$breakpoints: (tablet-start: 600px, desktop-start: 1200px, big-desktop-start: 1800px);
