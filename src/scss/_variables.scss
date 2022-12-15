@@ -1,16 +1,20 @@
 //colors
-$color-white-100: hsl(0, 0%, 100%);
-$color-white-200: hsl(231, 100%, 99%);
-$color-white-300: hsl(217, 100%, 97%);
-$color-white-400: hsl(229, 24%, 87%);
-$color-white-500: hsl(231, 11%, 63%);
+:root{
+    --color-white-100: hsl(0, 0%, 100%);
+    --color-white-200: hsl(231, 100%, 99%);
+    --color-white-300: hsl(217, 100%, 97%);
+    --color-white-400: hsl(229, 24%, 87%);
+    --color-white-500: hsl(231, 11%, 63%);
+    
+    --color-black-100: #000;
 
-$color-red-500: hsl(354, 84%, 57%);
+    --color-red-500: hsl(354, 84%, 57%);
 
-$color-blue-100: hsl(213, 96%, 18%);
-$color-blue-200: hsl(243, 100%, 62%);
-$color-blue-300: hsl(228, 100%, 84%);
-$color-blue-400: hsl(206, 94%, 87%);
+    --color-blue-100: hsl(213, 96%, 18%);
+    --color-blue-200: hsl(243, 100%, 62%);
+    --color-blue-300: hsl(228, 100%, 84%);
+    --color-blue-400: hsl(206, 94%, 87%);
+}
 
 //spacing
 :root{
