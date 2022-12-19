@@ -1,0 +1,58 @@
+@import './scss/media-breakpoints';
+
+.stepSelector{
+    background-image: url('./img/bg-sidebar-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.step-selector-part{
+    --white-color: var(--color-white-100);
+    --darkened-white: var(--color-white-400);
+
+    display: flex;
+    width: fit-content;
+    column-gap: var(--spacing-05);
+    color: var(--white-color);
+    cursor: pointer;
+
+    .step-selector-part__number{
+        font-size: 1.8rem;
+
+        padding: 1.7rem 2.1rem;
+        border: 1px solid var(--white-color);
+        border-radius: 100%;
+    }
+
+    .step-selector-part__text-box{
+        display: none;
+    }
+
+    @include media(">=desktop-start") {
+        .step-selector-part__text-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: var(--spacing-02);
+        }
+    
+        .step-selector-part__name-text{
+            font-weight: 400;
+            color: var(--darkened-white);
+            text-transform: uppercase;
+        }
+    
+        .step-selector-part__step-description{
+            text-transform: uppercase;
+        }
+    }
+    
+}
+
+.step-selector-part:hover,
+.step-selector-part[selected]{
+    .step-selector-part__number{
+        color: var(--color-black-100);
+        background-color: var(--color-blue-300);
+    }
+}
